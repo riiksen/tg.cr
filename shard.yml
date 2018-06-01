@@ -1,0 +1,18 @@
+name: qtest
+version: 0.1.0
+
+authors:
+  - Tim Fox
+
+targets:
+  qtest:
+    main: src/qtest.cr
+
+dependencies:
+  qt5:
+    github: Papierkorb/qt5.cr
+    branch: master-ready-to-use
+
+crystal: 0.24.2
+
+license: MIT
