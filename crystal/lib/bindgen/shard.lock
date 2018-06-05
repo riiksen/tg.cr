@@ -1,0 +1,6 @@
+version: 1.0
+shards:
+  toka:
+    github: Papierkorb/toka
+    version: 0.1.2
+

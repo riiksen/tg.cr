@@ -1,0 +1,19 @@
+oto wiatrak :ilosc :wielkosc
+	cs
+	powtórz :ilosc [
+		np :wielkosc
+		pw 90
+		np :wielkosc / 4
+		powtórz 3 [
+			lw 90
+			np :wielkosc / 2
+		]
+		lw 90
+		np :wielkosc / 4
+		pw 90
+		np :wielkosc
+		pw 360 / :ilosc
+	]
+już
+
+wiatrak 8 100
